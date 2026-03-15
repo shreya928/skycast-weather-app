@@ -1,16 +1,117 @@
-# React + Vite
+# 🌤️ SkyCast Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application built with **React, Vite, and Material UI** that fetches real-time weather data using the **OpenWeather API**. Users can search for any city to view current weather conditions including temperature, humidity, and weather description.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔎 Search weather by city name  
+- 🌡️ Displays temperature, min/max temperature, and humidity  
+- ☁️ Shows weather description and "feels like" temperature  
+- 🎨 Clean UI using **Material UI components**  
+- ⚡ Fast performance with **Vite**  
+- 🔄 Dynamic weather icons and UI updates  
+- ❌ Error handling for invalid city searches  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- Material UI
+- OpenWeather API
+- CSS
+
+---
+
+## 📂 Project Structure
+
+```
+skycast-weather-app
+│
+├── public
+│   └── vite.svg
+│
+├── src
+│   ├── assets
+│   ├── App.jsx
+│   ├── WeatherApp.jsx
+│   ├── SearchBox.jsx
+│   ├── InfoBox.jsx
+│   ├── App.css
+│   ├── SearchBox.css
+│   ├── InfoBox.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/shreya928/skycast-weather-app.git
+```
+
+### 2️⃣ Navigate to the project folder
+
+```
+cd skycast-weather-app
+```
+
+### 3️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 4️⃣ Create a `.env` file and add your API key
+
+```
+VITE_API_KEY=your_openweather_api_key
+```
+
+### 5️⃣ Run the development server
+
+```
+npm run dev
+```
+
+---
+
+## 🌐 API Used
+
+OpenWeather API
+
+https://openweathermap.org/api
+
+---
+
+## 📌 Future Improvements
+
+- 🌍 Auto-detect user location
+- 📱 Fully responsive design
+- 🌙 Dark mode support
+- 📊 Extended weather forecast
+
+---
+
+## 👩‍💻 Author
+
+**Shreya Pathak**
+
+GitHub:  
+https://github.com/shreya928
+
+---
+
+⭐ If you like this project, consider giving it a star!
